@@ -1,0 +1,25 @@
+collection='COPERNICUS/S1_GRD_FLOAT'
+pol='HV'
+mode='IW'
+# Can be both, both_stack, ASC, DESC
+orbit_direction='both_stack'
+
+ref_type='asset'
+ref_start_year=2017
+ref_end_year=2022
+ref_start_doy=61
+ref_end_doy=106
+annual_refs=false
+
+# despeckling. Px are at native resolution of imaging mode.
+dfilter='lee'
+filterpx=5
+
+
+crs='epsg:3413'
+export_resolution_m=100
+assets_path='projects/firn-retention/assets'
+gdrive_folder='rlim_retention'
+
+study_start_year=2017
+study_end_year=2022
